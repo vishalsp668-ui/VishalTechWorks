@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Vishal Parashar's personal portfolio website.">
+
+    <title>Vishal Parashar | Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Main JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- LOADER -->
+    <div id="loader">
+        <div class="loader-logo">VISHAL<span>.</span></div>
+        <div class="loader-line"></div>
+        <p>LOADING EXPERIENCE...</p>
+    </div>
+
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+
+    <!-- HEADER -->
+    <header class="site-header">
+
+        <a href="#home" class="logo">
+            VISHAL<span>.</span>
+        </a>
+
+        <nav id="nav" aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#social">Social</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+
+            <button class="theme-btn" id="themeBtn" type="button" aria-label="Toggle theme">
+                ☀️
+            </button>
+
+            <button class="menu" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false">
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+
+        <!-- HOME SECTION -->
+        
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <div class="eyebrow">
+            WELCOME TO MY DIGITAL WORLD
+        </div>
+
+        <h1>
+            I'm Vishal<br>
+            <span>Parashar.</span>
+        </h1>
+
+        <div class="typing-line">
+            Aspiring <span id="typing"></span>
+        </div>
+
+        <p>
+            I'm Vishal Parashar, a final-year B.Tech
+            Computer Science student specializing in AI/ML
+            at Sanskriti University.
+
+            Passionate about Artificial Intelligence,
+            Machine Learning and Web Development, I enjoy
+            exploring new technologies and building
+            practical projects that turn ideas into reality.
+        </p>
+
+        <div class="actions">
+
+            <a href="#projects" class="btn btn-primary">
+                Explore My Work ↗
+            </a>
+
+            <a href="#about" class="btn btn-outline">
+                About Me
+            </a>
+
+            <a href="Vishal-CV.pdf" download class="btn btn-outline">
+                Download CV ↓
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-bottom">
+        <span>CREATIVITY · TECHNOLOGY · PASSION</span>
+        <a href="#about">SCROLL TO EXPLORE ↓</a>
+    </div>
+
+</section>
+
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section alternate">
+
+    <div class="about-grid">
+
+        <div>
+
+            <div class="section-tag">
+                01 / ABOUT ME
+            </div>
+
+            <h2 class="section-title">
+                A little about<br>
+                <span>who I am.</span>
+            </h2>
+
+            <p class="section-desc">
+                Hello! I'm Vishal Parashar, a final-year
+                B.Tech Computer Science student specializing
+                in Artificial Intelligence and Machine Learning
+                at Sanskriti University, Mathura.
+
+                I'm interested in AI/ML and Web Development.
+                I enjoy learning new technologies, improving
+                my technical skills and building practical projects.
+            </p>
+
+            <div class="about-details">
+
+                <div class="detail">
+                    <strong>EDUCATION</strong>
+                    <small>B.Tech CSE (AI/ML) - Final Year</small>
+                </div>
+
+                <div class="detail">
+                    <strong>UNIVERSITY</strong>
+                    <small>Sanskriti University</small>
+                </div>
+
+                <div class="detail">
+                    <strong>LOCATION</strong>
+                    <small>Mathura, Uttar Pradesh</small>
+                </div>
+
+                <div class="detail">
+                    <strong>INTEREST</strong>
+                    <small>AI/ML & Web Development</small>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="about-visual">
+
+            <img src="images/vishal.png"
+                 alt="Vishal Parashar"
+                 class="about-photo">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="section">
+
+            <div class="center">
+
+                <div class="section-tag">
+                    02 / WHAT I KNOW
+                </div>
+
+                <h2 class="section-title">
+                    My <span>Skills.</span>
+                </h2>
+
+                <p class="section-desc">
+                    My current focus is building strong foundations in web
+                    development and exploring Artificial Intelligence
+                    and Machine Learning.
+                </p>
+
+            </div>
+
+            <div class="skills-grid">
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon">🌐</div>
+                    <h3>HTML</h3>
+                    <p>Creating structured and meaningful web pages.</p>
+
+                    <div class="skill-bar">
+                        <span style="width: 65%"></span>
+                    </div>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon">🎨</div>
+                    <h3>CSS</h3>
+                    <p>Designing layouts and responsive pages.</p>
+
+                    <div class="skill-bar">
+                        <span style="width: 55%"></span>
+                    </div>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon">⚡</div>
+                    <h3>JavaScript</h3>
+                    <p>Learning logic and interactive web features.</p>
+
+                    <div class="skill-bar">
+                        <span style="width: 35%"></span>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS SECTION -->
+        
+<!-- PROJECTS SECTION -->
+<section id="projects" class="section alternate">
+
+    <div class="section-tag">
+        03 / MY CREATIONS
+    </div>
+
+    <h2 class="section-title">
+        My <span>Projects.</span>
+    </h2>
+
+    <p class="section-desc">
+        Here are some of the projects I have built
+        while learning and improving my development skills.
+    </p>
+
+    <div class="projects-grid">
+
+        <!-- PROJECT 01 -->
+        <article class="project reveal">
+
+            <div class="project-number">
+                PROJECT 01
+            </div>
+
+            <h3>Personal Portfolio Website</h3>
+
+            <p>
+                A responsive personal portfolio website
+                showcasing my introduction, education,
+                technical skills, interests and contact details.
+                Built to present my work and professional profile.
+            </p>
+
+            <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+            <div class="project-links">
+
+                <a href="#home">
+                    Live Preview ↗
+                </a>
+
+                <a href="https://github.com/vishalsp668-ui"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    GitHub Profile ↗
+                </a>
+
+            </div>
+
+        </article>
+
+<!-- PROJECT 02 -->
+<article class="project reveal">
+
+    <div class="project-number">
+        PROJECT 02
+    </div>
+
+    <h3>Calculator App</h3>
+
+    <p>
+        A responsive calculator application built using
+        HTML, CSS and JavaScript. It supports basic
+        arithmetic operations with a simple and
+        user-friendly interface.
+    </p>
+
+    <div class="project-tags">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+    </div>
+
+    <div class="project-links">
+
+        <a href="calculator/index.html" target="_blank"
+           rel="noopener noreferrer">
+            Live Demo ↗
+        </a>
+
+        <a href="https://github.com/vishalsp668-ui"
+           target="_blank"
+           rel="noopener noreferrer">
+            GitHub Profile ↗
+        </a>
+
+    </div>
+
+</article>
+
+    </div>
+
+</section>
+
+
+        <!-- ACHIEVEMENTS SECTION -->
+        <section id="achievements" class="section">
+
+            <div class="center">
+
+                <div class="section-tag">
+                    04 / MILESTONES
+                </div>
+
+                <h2 class="section-title">
+                    My <span>Achievements.</span>
+                </h2>
+
+                <p class="section-desc">
+                    Add genuine certificates, courses, awards
+                    or learning milestones here.
+                </p>
+
+            </div>
+
+            <div class="achievement-grid">
+
+                <article class="achievement reveal">
+                    <div>🏅</div>
+                    <h3>Certifications</h3>
+                    <p>Add a course or certificate you have completed.</p>
+                </article>
+
+                <article class="achievement reveal">
+                    <div>📚</div>
+                    <h3>Learning</h3>
+                    <p>Highlight a skill or technology you are currently learning.</p>
+                </article>
+
+                <article class="achievement reveal">
+                    <div>🚀</div>
+                    <h3>Projects</h3>
+                    <p>Describe a project you are proud of.</p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- HOBBIES SECTION -->
+        <section id="hobbies" class="section alternate">
+
+            <div class="center">
+
+                <div class="section-tag">
+                    05 / BEYOND THE SCREEN
+                </div>
+
+                <h2 class="section-title">
+                    My <span>Interests.</span>
+                </h2>
+
+            </div>
+
+            <div class="hobby-grid">
+
+                <div class="hobby reveal">
+                    <div>💻</div>
+                    <h3>Technology</h3>
+                </div>
+
+                <div class="hobby reveal">
+                    <div>📖</div>
+                    <h3>Learning</h3>
+                </div>
+
+                <div class="hobby reveal">
+                    <div>🎮</div>
+                    <h3>Gaming</h3>
+                </div>
+
+                <div class="hobby reveal">
+                    <div>🎵</div>
+                    <h3>Music</h3>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOCIAL SECTION -->
+<section id="social" class="section alternate">
+
+    <div class="center">
+        <div class="section-tag">06 / FIND ME ONLINE</div>
+
+        <h2 class="section-title">
+            Let's <span>Connect.</span>
+        </h2>
+
+        <p class="section-desc">
+            Connect with me through my social profiles.
+        </p>
+    </div>
+
+    <div class="social-grid">
+
+        <!-- GITHUB -->
+        <a href="https://github.com/vishalsp668-ui"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="social-card">
+
+            <i class="fa-brands fa-github"></i>
+            <h3>GitHub</h3>
+            <p>Visit my GitHub profile</p>
+
+        </a>
+
+        <!-- LINKEDIN -->
+        <a href="https://www.linkedin.com/in/vishal-parashar-6a8a18365"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="social-card">
+
+            <i class="fa-brands fa-linkedin"></i>
+            <h3>LinkedIn</h3>
+            <p>Connect with me</p>
+
+        </a>
+
+        <!-- WHATSAPP -->
+        <a href="https://wa.me/917060743149"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="social-card">
+
+            <i class="fa-brands fa-whatsapp"></i>
+            <h3>WhatsApp</h3>
+            <p>Message me on WhatsApp</p>
+
+        </a>
+
+    </div>
+
+</section>
+                   
+
+               
+        
+
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section alternate">
+
+            <div class="contact-grid">
+
+                <div class="contact-info">
+
+                    <div class="section-tag">
+                        07 / CONTACT
+                    </div>
+
+                    <h2 class="section-title">
+                        Have a project<br>
+                        <span>in mind?</span>
+                    </h2>
+
+                    <p>
+                        Use the form to prepare an email.
+                        Add your email address in script.js
+                        before using this feature.
+                    </p>
+
+                </div>
+
+
+                <form class="contact-form" id="contactForm">
+
+                    <label for="name">Your name</label>
+                    <input
+                        id="name"
+                        name="name"
+                        type="text"
+                        placeholder="Enter your name"
+                        required
+                    >
+
+                    <label for="senderEmail">Your email</label>
+                    <input
+                        id="senderEmail"
+                        name="email"
+                        type="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                    <label for="message">Your message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Write your message..."
+                        required
+                    ></textarea>
+
+                    <button class="btn btn-primary" type="submit">
+                        Prepare Email ↗
+                    </button>
+
+                    <p class="form-note">
+                        This opens your email app; it does not send automatically.
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © <span id="year"></span> Vishal Parashar. All rights reserved.
+        </p>
+
+        <p>
+            Designed with curiosity and code.
+        </p>
+
+    </footer>
+
+
+    <!-- BACK TO TOP BUTTON -->
+    <button id="topBtn" type="button" aria-label="Back to top">
+        ↑
+    </button>
+
+</body>
+</html>
